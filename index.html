@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Makanan Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>RESTORAN CEPAT SAJI</h1>
+    </header>
+
+    <main class="container">
+        <!-- Daftar Menu -->
+        <section class="menu-section">
+            <h2>Daftar Menu</h2>
+            <div class="menu-grid" id="menu-container">
+                <!-- Data menu diisi melalui JavaScript -->
+            </div>
+        </section>
+
+        <!-- Struk / Ringkasan Pesanan -->
+        <section class="cart-section">
+            <h2>Keranjang Pesanan</h2>
+            <ul id="cart-list" class="cart-list">
+                <li class="empty-cart">Keranjang masih kosong.</li>
+            </ul>
+            <div class="cart-total">
+                <span>Total Bayar:</span>
+                <span id="total-price">Rp 0</span>
+            </div>
+            <button id="checkout-btn" class="btn-checkout">Proses Pesanan</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
